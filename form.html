@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	       <title>Form Validation</title>
+		   <meta charset="utf-8">
+		   
+		   <link href="form.css" rel="stylesheet" type="text/css">
+		   <script type="text/javascript" src="form.js"></script>
+	 </head>
+	 <body>
+	    
+	      <div class="form">
+	        
+			<div class="account"><h2>Create Account</h2></div>
+			
+			<div class="username">
+			Username:</br>
+			<i class="fa fa-user" aria-hidden="true"></i>
+			<input type="text" name="username" placeholder="Mukesh Kushwaha" id="uname"/></br>
+		 
+			</div>
+			<p id="para"></p>
+			
+			<div class="email">
+			Email:</br>
+		    <i class="fa fa-envelope" aria-hidden="true"></i>
+			<input type="email" name="email" placeholder="something@gmail.com" id="uemail"/></br>
+			</div>
+			<p id="para1"></p>
+			
+			<div class="pass">
+			Password:</br>
+			<i class="fa fa-lock" aria-hidden="true"></i>
+			<input type="password" name="password1" placeholder="password" id="upass"/></br>
+	
+			</div>
+			<p id="para2"></p>
+			<div class="passwd">
+			Retype Password:</br>
+			<i class="fa fa-lock" aria-hidden="true"></i>
+			<input type="password" name="password2" placeholder="Re-enter password" id="upasswd"/></br>
+	
+			</div>
+			<p id="para3"></p>
+			
+			<div><input type="checkbox" name="remember" checked="checked"/>Remember Me</div>
+			
+			<input type="submit" value="Sigh Up" onclick="formvalidate();" class="sub"/>
+		  
+			<div class="forgot"><b><i>Forgot Password?</i></b></div>
+			<div class="have"><b><i>Already have an account? Sign In.</i></b></div>
+		  </div>
+	   
+	 </body>
+</html>
